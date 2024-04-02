@@ -1,0 +1,242 @@
+.dashboard {
+    display: flex;
+    height: 100vh;
+    margin-top: -6px;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: rgb(134, 3, 154);
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .box {
+    width: 250px;
+    height: 200px;
+    background: linear-gradient(to right, 
+    rgb(206, 101, 222),
+    rgb(152, 84, 163),
+    rgb(148, 45, 164),
+    rgb(169, 84, 183),
+    rgb(213, 116, 228),
+      rgb(161, 64, 176),
+      rgb(200, 69, 220),
+      rgb(189, 117, 200)
+    );
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-right: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .box h2 {
+    margin-top: 8px;
+    font-size: 18px;
+    color: #fcfafa;
+  }
+  
+  .lab {
+    font-size: 25px;
+    margin-top: 8px;
+    color: #f8f6f6;
+  }
+  
+  .big-box1 {
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 260px;
+    margin-left: -1190px;
+    box-sizing: border-box;
+    width: 1150px;
+    height: 400px;
+  }
+  
+  .big-box h2 {
+    margin-top: 0px;
+  }
+  
+  .icon {
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  
+  .upcoming {
+    font-size: 25px;
+    color: rgb(118, 116, 118);
+  }
+  
+  .border {
+    border: 1px solid black;
+    width: 1120px;
+    
+    border-radius: 5px;
+  }
+  
+  .border td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+    
+  }
+  
+  .border tr:not(:last-child) {
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .left {
+    text-align: start;
+  }
+  
+  .right {
+    padding-left: 10px;
+  }
+  
+  .topic {
+    padding-right: 200px;
+  }
+  
+  .border tr:nth-child(odd) {
+    background: linear-gradient(to right, #54514d, #767575, #5e5e5d, #6f6f6e);
+    color: white;
+  }
+  
+  .border tr:nth-child(even) {
+    
+      background: linear-gradient(to right, 
+        
+      rgb(166, 71, 181),
+        rgb(154, 46, 171)
+       
+      );
+    
+    
+  color: white;
+  }
+  
+  .viewmore{
+    background-color: rgb(241, 241, 238);
+    border-radius: 5px;
+    width: 105px;
+    height: 45px;
+    color: #313131;
+  }
+  
+  .viewmore:hover{
+     color:#f6f3f3;
+  }
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); 
+  z-index: 998; 
+}
+
+.modal {
+  width: 600px;
+  height: auto; 
+  max-height: 80%; 
+  overflow-y: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f3f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(114, 113, 113, 0.2);
+  z-index: 999; /* Ensure modal is above other content */
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #aaa;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 10px;
+  flex-wrap: wrap; /* Allow input groups to wrap onto the next line */
+}
+
+.input-group label {
+  margin-right: 10px;
+  width: 100px; /* Adjust width as needed */
+}
+
+.input-group input {
+  flex: 1; /* Fill remaining space */
+  border-radius: 5px;
+  height: 25px;
+  border: 1px solid rgb(136, 135, 135);
+  margin-right: 10px;
+}
+
+.session_date{
+  margin-left: -198px;
+}
+
+.modal-content h2{
+  margin-top: -5px;
+}
+
+.Session_button{
+  margin-top: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+  width: 110px;
+  height: 45px;
+  border: 1px solid rgb(136, 135, 135);
+  color: #fff;
+}
+.Session_button:hover{
+  color: #fff;
+}

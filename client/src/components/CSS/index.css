@@ -1,0 +1,61 @@
+.page-content { 
+    color: black;
+    position: relative;
+    z-index: 2;
+    margin-top: 13%;
+    width: 800px;
+    height: 300px;
+}
+
+.p1 {
+    z-index: 2;
+    margin-top: 10%; /* Use percentage for responsiveness */
+    font-size: 2rem; /* Adjust for smaller screens */
+    margin-left: 8%; /* Use percentage for responsiveness */
+}
+
+.btn_index {
+    margin-top: 1.9%; /* Adjust margin-top to position the button exactly below the text */
+    margin-left: 35%; /* Use percentage for responsiveness */
+    border-radius: 5px;
+    padding: 7px;
+    background-color: rgb(187, 58, 252);
+    border-style: double;
+    border-color:  rgb(187, 58, 252);
+    font-size: 1.3rem; /* Adjust for smaller screens */
+    color:white;
+}
+
+.btn_index:hover {
+    background-color: black;
+    color: white;
+}
+
+.image-container {
+    margin-left: 55%; /* Use percentage for responsiveness */
+    margin-top: -30%; /* Use percentage for responsiveness */
+}
+
+.image-container img {
+    /* max-width: 100%; Ensure images resize with container */
+    width:600px;
+    height: 600px;
+    position: absolute;
+    z-index: 1;
+}
+
+.blue {
+    width: 30%; /* Use percentage for responsiveness */
+    margin-top: 7.2%; /* Use percentage for responsiveness */
+    z-index: 0;
+    position: absolute;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .blue {
+        width: 70%; /* Adjust width for smaller screens */
+        margin-top: 4%; /* Adjust margin for smaller screens */
+       
+    }
+}

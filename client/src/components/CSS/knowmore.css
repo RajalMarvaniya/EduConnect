@@ -1,0 +1,40 @@
+.about-us-container {
+  background-image: url('../../images/Aboutus.svg');
+  background-size: contain; /* Ensure entire background image is visible within the container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  width: 85%; /* Ensure the container spans the entire width of the viewport */
+  height: 90vh; 
+  color: #000;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.about-us-content {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.about-us-container ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0;
+  margin-top: -80px;
+}
+
+.about-us-container li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  width: 2000px;
+  display: flex; /* Use flexbox */
+  align-items: center; /* Center vertically */
+}
+
+.about-us-container li::before {
+  content: '\2022'; /* Bullet point character */
+  font-size: 24px; /* Adjust bullet point size */
+  margin-right: 10px; /* Add space between bullet point and text */
+}

@@ -1,0 +1,47 @@
+.d-container{
+  display:flex;
+  margin-left: 1px;
+}
+main{
+  width: 100%;
+  padding: 20px;
+}
+.d-sidebar{
+  background : rgb(49, 49, 49);
+  color: rgb(247, 247, 247);
+  height: 3000px;
+  width: 200px;
+  transition: all 0.5s;
+  margin-left: -10px;
+}
+.d-top_section{
+  display: flex;
+  align-items:center;
+  padding:20px 15px;
+  margin-left: -10px;
+}
+.d-bars{
+  display: flex;
+  margin-left: 70px;
+  font-size: 25px;
+}
+.d-link{
+  display: flex;
+  color: rgb(248, 243, 243);
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  margin-left: 0px;
+}
+.d-link:hover{
+  /* background : rgb(134, 3, 154); */
+  color: rgb(253, 253, 253);
+  transition: all 0.5s;
+}
+.d-active{
+  background : rgb(245, 243, 245);
+  color: rgb(252, 251, 252);
+}
+.d-icon, .d-link_text{
+  font-size: 20px;
+}
